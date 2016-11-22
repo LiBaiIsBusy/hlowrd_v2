@@ -1,5 +1,5 @@
 TN:
-SF:E:\WSWorkspace\hlowrd\index.js
+SF:E:\WSWorkspace\hlowrd_v2\index.js
 FN:47,(anonymous_1)
 FN:82,(anonymous_2)
 FN:92,(anonymous_3)
@@ -48,7 +48,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\config\default.js
+SF:E:\WSWorkspace\hlowrd_v2\config\default.js
 FNF:0
 FNH:0
 DA:1,1
@@ -58,7 +58,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\routes\index.js
+SF:E:\WSWorkspace\hlowrd_v2\routes\index.js
 FN:1,(anonymous_1)
 FN:2,(anonymous_2)
 FN:11,(anonymous_3)
@@ -85,7 +85,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\routes\signup.js
+SF:E:\WSWorkspace\hlowrd_v2\routes\signup.js
 FN:10,(anonymous_1)
 FN:15,(anonymous_2)
 FN:61,(anonymous_3)
@@ -163,7 +163,7 @@ BRF:18
 BRH:13
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\models\users.js
+SF:E:\WSWorkspace\hlowrd_v2\models\users.js
 FN:5,create
 FN:10,getUserByName
 FNF:2
@@ -180,14 +180,14 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\lib\mongo.js
+SF:E:\WSWorkspace\hlowrd_v2\lib\mongo.js
 FN:11,(anonymous_1)
 FN:12,(anonymous_2)
 FN:17,(anonymous_3)
 FNF:3
 FNH:2
 FNDA:1,(anonymous_1)
-FNDA:1,(anonymous_2)
+FNDA:2,(anonymous_2)
 FNDA:0,(anonymous_3)
 DA:1,1
 DA:2,1
@@ -197,7 +197,7 @@ DA:6,1
 DA:7,1
 DA:10,1
 DA:12,1
-DA:13,1
+DA:13,2
 DA:15,1
 DA:18,0
 DA:19,0
@@ -217,7 +217,7 @@ BRF:2
 BRH:0
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\middlewares\check.js
+SF:E:\WSWorkspace\hlowrd_v2\middlewares\check.js
 FN:2,checkLogin
 FN:10,checkNotLogin
 FNF:2
@@ -243,7 +243,7 @@ BRF:4
 BRH:1
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\routes\signin.js
+SF:E:\WSWorkspace\hlowrd_v2\routes\signin.js
 FN:9,(anonymous_1)
 FN:14,(anonymous_2)
 FN:19,(anonymous_3)
@@ -284,7 +284,7 @@ BRF:4
 BRH:0
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\routes\signout.js
+SF:E:\WSWorkspace\hlowrd_v2\routes\signout.js
 FN:7,(anonymous_1)
 FNF:1
 FNH:0
@@ -303,7 +303,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\routes\posts.js
+SF:E:\WSWorkspace\hlowrd_v2\routes\posts.js
 FN:10,(anonymous_1)
 FN:14,(anonymous_2)
 FN:23,(anonymous_3)
@@ -429,7 +429,7 @@ BRF:10
 BRH:0
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\models\posts.js
+SF:E:\WSWorkspace\hlowrd_v2\models\posts.js
 FN:7,(anonymous_1)
 FN:8,(anonymous_2)
 FN:9,(anonymous_3)
@@ -448,12 +448,12 @@ FN:96,delPostById
 FNF:15
 FNH:6
 FNDA:1,(anonymous_1)
-FNDA:1,(anonymous_2)
-FNDA:1,(anonymous_3)
+FNDA:2,(anonymous_2)
+FNDA:2,(anonymous_3)
 FNDA:0,(anonymous_4)
 FNDA:0,(anonymous_5)
 FNDA:1,(anonymous_6)
-FNDA:1,(anonymous_7)
+FNDA:2,(anonymous_7)
 FNDA:0,(anonymous_8)
 FNDA:0,create
 FNDA:0,getPostById
@@ -467,9 +467,9 @@ DA:2,1
 DA:3,1
 DA:6,1
 DA:8,1
-DA:9,1
-DA:10,1
-DA:11,1
+DA:9,2
+DA:10,2
+DA:11,2
 DA:16,0
 DA:17,0
 DA:18,0
@@ -477,8 +477,8 @@ DA:19,0
 DA:22,0
 DA:27,1
 DA:29,1
-DA:30,1
-DA:31,1
+DA:30,2
+DA:31,2
 DA:35,0
 DA:36,0
 DA:38,0
@@ -505,7 +505,7 @@ BRF:6
 BRH:1
 end_of_record
 TN:
-SF:E:\WSWorkspace\hlowrd\models\comments.js
+SF:E:\WSWorkspace\hlowrd_v2\models\comments.js
 FN:6,(anonymous_1)
 FN:7,(anonymous_2)
 FN:16,create
@@ -519,7 +519,7 @@ FNDA:0,(anonymous_2)
 FNDA:0,create
 FNDA:0,delCommentById
 FNDA:0,getComments
-FNDA:1,getCommentsCount
+FNDA:2,getCommentsCount
 DA:1,1
 DA:2,1
 DA:5,1
@@ -530,7 +530,7 @@ DA:14,1
 DA:17,0
 DA:22,0
 DA:27,0
-DA:38,1
+DA:38,2
 LF:11
 LH:5
 BRF:0
