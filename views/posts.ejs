@@ -1,4 +1,34 @@
-<%- include('header') %>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%= blog.title %></title>
+  <link rel="stylesheet" href="//cdn.bootcss.com/semantic-ui/2.1.8/semantic.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/semantic-ui/2.1.8/semantic.min.js"></script>
+</head>
+<body>
+<%- include('components/nav') %>
+<%- include('components/nav-setting') %>
+<div class="ui grid">
+  <div class="two wide column"></div>
+  <div class="two wide column">
+
+    <% if (success) { %>
+    <div class="ui success message">
+      <p><%= success %></p>
+    </div>
+    <% } %>
+
+    <% if (error) { %>
+    <div class="ui error message">
+      <p><%= error %></p>
+    </div>
+    <% } %>
+
+  </div>
+</div>
 
 <% posts.forEach(function (post) { %>
   <%- include('components/post-content', { post: post }) %>
