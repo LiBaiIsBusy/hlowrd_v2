@@ -60,7 +60,16 @@ router.post('/', checkLogin, function(req, res, next) {
     })
     .catch(next);
 });
-
+router.get('/find',function (req,res,next) {
+    var condition = req.query.condition;
+    PostModel.getPostsByCondition(condition)
+        .then(function (posts) {
+            res.render('posts', {
+                posts: posts
+            });
+        })
+        .catch(next);
+});
 // GET /posts/:postId 单独一篇的文章页
 router.get('/:postId', function(req, res, next) {
   var postId = req.params.postId;

@@ -72,6 +72,22 @@ module.exports = {
       .exec();
   },
 
+  getPostsByCondition:function getPostsByCondition(condition) {
+    var query={};
+    if (condition){
+      query.title=new RegExp(condition,'i');
+      query.content=new RegExp(condition,'i');
+    }
+    return Post
+        .find(query)
+        .populate({ path: 'author', model: 'User' })
+        .sort({ _id: -1 })
+        .addCreatedAt()
+        .addCommentsCount()
+        .contentToHtml()
+        .exec();
+  },
+
   // 通过文章 id 给 pv 加 1
   incPv: function incPv(postId) {
     return Post
