@@ -5,6 +5,7 @@ body {
   height: 100%;
   margin: 0 auto;
   padding-top: 40px;
+  background-color: #f7f7f7;
 }
 
 a:hover {
@@ -48,7 +49,7 @@ a:hover {
 
 .nav-setting .ui.dropdown.button {
   padding: 10px 10px 0 10px;
-  background-color: #fff !important;
+  background-color: #f7f7f7 !important;
 }
 
 .nav-setting .icon.bars {
